@@ -36,7 +36,7 @@ By default, Prometheus will not be exposed to the outside world. To access the P
 Run the following command to port forward the Prometheus server:
 
 ```bash
-kubectl port-forward svc/prometheus-server 9090:80
+kubectl port-forward svc/prometheus-server 9091:80
 ```
 
 Now you can access the Prometheus UI at [http://localhost:9090](http://localhost:9090).
