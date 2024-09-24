@@ -39,7 +39,7 @@ Run the following command to port forward the Prometheus server:
 kubectl port-forward svc/prometheus-server 9091:80
 ```
 
-Now you can access the Prometheus UI at [http://localhost:9090](http://localhost:9090).
+Now you can access the Prometheus UI at [http://localhost:9091](http://localhost:9091).
 
 #### Option B: Expose via LoadBalancer or NodePort
 
